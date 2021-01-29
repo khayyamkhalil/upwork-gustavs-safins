@@ -40,6 +40,7 @@ body {
   text-decoration: none;
   color: white;
   letter-spacing: 2px;
+  font-weight: 600;
 }
 
 .main_section {
@@ -65,18 +66,20 @@ body {
 }
 
 .side_items {
-  margin: 0;
-  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .side_items li {
-  list-style-type: none;
-  text-decoration: none;
-  text-align: center;
+  padding: 10px 0;
 }
 
 footer {
   text-align: center;
+  background-color: darkgray;
+  margin: 0;
+  padding: 10px;
 }
 
 @media only screen and (min-width: 600px) {
@@ -94,5 +97,9 @@ footer {
 
   .nav_items {
     justify-content: flex-start;
+  }
+
+  .heading_side {
+    padding: 20px;
   }
 }
